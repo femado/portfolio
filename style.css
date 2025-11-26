@@ -1,0 +1,562 @@
+
+.container{
+    /* border: 1px solid red; */
+    width: 100%;
+    
+}
+
+.navbar-nav{
+ /* border: 1px solid red; */
+ margin: auto;
+ gap: 20px;
+}
+.navbar-nav .nav-link:hover{
+ color:  rgb(47, 79, 79) !important;
+ font-weight: bold;
+
+}
+
+.hero-parent{
+    /* border: 2px solid red; */
+    display: flex; 
+
+}
+.herop{
+    text-align: center;
+    margin-top: 20px;
+}
+.hero-ptag{
+    /* border: 1px solid red; */
+    line-height: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.icon{
+    /* border: 1px solid red; */
+    font-size: 45px;
+    color:  rgb(47, 79, 79);
+    margin-left: 90px;
+    /* margin-bottom: 20px; */
+}
+.hero1{
+    /* border: 1px solid red; */
+    padding: 70px;
+    background-color: #F8F8FF;
+    width: 60%;
+}
+.hero2{
+    /* border: 1px solid red; */
+    margin: 30px;
+
+    /* width: 60%; */
+   
+}
+.resume{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.resume1{
+    border: 1px solid rgb(47, 79, 79);;
+    text-align: center;
+    width: 15%;
+    height: 35px;
+    border-radius: 20px;
+    padding-top: 5px;
+    background-color: rgb(47, 79, 79);
+    color: #F8F8FF;
+    
+}
+.resume1:hover{
+    background-color: #F8F8FF;
+    color: black;
+}
+.project{
+    border: 1px solid black;
+    text-align: center;
+     width: 15%;
+     height: 35px;
+     padding-top: 5px;
+    border-radius: 20px;  
+}
+.project:hover{
+    background-color: rgb(47, 79, 79);
+    color: #F8F8FF;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    margin-left: 20px; 
+    /* margin-bottom: 50px; */
+    /* padding-bottom: 40px; */
+}
+
+.follow-icon{
+    /* border: 1px solid red; */
+    font-size: 20px;
+    /* margin-left: 70px; */
+    margin-top: 60px;
+    /* gap: 50px; */
+   
+}
+.nav-parent{
+    /* border: 1px solid red; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: -70px;
+}
+.resume-one{
+     /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+}
+.resume-one p{
+    /* border: 1px solid red; */
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.present{
+    /* border: 1px solid red; */
+    /* margin-left: 150px; */
+    margin-top: 50px;
+    width: 50%;
+    padding: 50px;
+    background-color: #F8F8FF;
+
+}
+.uni-name{
+     /* border: 1px solid red; */
+    /* margin-left: 150px; */
+    margin-top: 50px;
+    width: 50%;
+    padding: 50px;
+    background-color: #F8F8FF;
+}
+.pro-skill{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.pro-skillset{
+    /* border: 1px solid red; */
+    /* margin-left: 150px; */
+    background-color: #F8F8FF;
+    padding: 50px;
+    margin-top: 50px;
+    width: 50%;
+}
+.lang{
+    margin-top: 20px;
+}
+.project-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+}
+.project-icon p{
+     /* border: 1px solid red; */
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.gym{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 160px;
+    /* margin-top: 30px; */
+}
+.gym-img{
+    width: 50%;
+}
+.history{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 150px;
+    gap: 30px;
+}
+.project-completed{
+    /* border: 1px solid red; */
+    line-height: 40px;
+    /* margin-left: 50px;    */
+}
+.project-completed p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.project-completed h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 70px;
+    /* margin-left: 45px; */
+    
+}
+.projects-skill{
+    /* border: 1px solid red; */
+    /* margin-left: 150px; */
+    padding: 50px;
+    margin-top: 30px;
+    background-color: #F8F8FF;
+
+}
+.contact-container{
+    /* border: 1px solid red; */
+    margin-left: 80px;
+    margin-top: 80px;
+    background-color: #F8F8FF;
+    width: 90%;
+    padding: 50px;
+}
+.let-talk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+}
+.name,.email,.message{
+    width: 600px;
+    margin: 10px;
+}
+.form-section, label{
+    /* border: 1px solid red; */
+    margin-left: 10px;
+}
+.form-btn{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:rgb(47, 79, 79);
+    color: #F8F8FF;
+    border: none;
+}
+.form-btn:hover{
+    background-color: rgb(35, 135, 135);
+}
+.footer-container{
+    display: flex;
+    margin-top: 100px;
+    gap: 95px;
+    background-color: #F8F8FF;
+    width: 100%;
+    /* margin-left: -70px; */
+    padding: 30px;
+}
+.footer-call{
+    margin-top: 20px;
+}
+.footer-call h6{
+    margin-left: 45px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer-icon{
+    margin-top: 20px;
+}
+.footer-icon h6{
+    /* border: 1px solid red; */
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width:430px){
+    container{
+        /* border: 2px solid red; */
+        flex-direction: column;
+        width: 100%;
+    }
+    .hero-parent{
+        flex-direction: column;
+    }
+    .hero1{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    img{
+        margin-left: -25px;
+    }
+    .hero-ptag{
+        text-align: center;
+    }
+    .icon{
+        margin-left: 50px;
+    }
+    .follow-icon{
+        margin-left: 20px;
+    }
+    .herop{
+        font-size: 20px;
+        /* border: 1px solid red; */
+    }
+    .hero2 h1{
+        /* border: 1px solid red; */
+        font-size: 50px !important;
+    }
+    .hero2{
+        justify-content: center;
+    }
+    .resume{
+        flex-direction: column;
+    }
+    .resume1{
+        width: 100px;
+    }
+    .project{
+        /* border: 1px solid red; */
+        width: 100px;
+    }
+    .resume-one{
+        /* border: 1px solid red; */
+        flex-direction: column;
+        
+    }
+    .experience{
+        /* border: 1px solid red; */
+        margin-left: 30px !important;
+    }
+    .present{
+        width: 100%;
+        /* margin-left: 30px; */
+    }
+    .education{
+        margin-left: 30px !important;
+    }
+    .uni-name{
+        /* margin-left: 30px; */
+        width: 100%;
+    }
+    .professional{
+        margin-left: 30px !important;
+    }
+    .pro-skillset{
+        width: 100%;
+        /* margin-left: 30px; */
+    }
+    .project-section{
+        width: 100%;
+    }
+    .pro-skill{
+        flex-direction: column;
+    }
+    .project-icon{
+        flex-direction: column;
+    }
+    .gym{
+        flex-direction: column;
+    }
+    .projects-skill{
+        /* margin-left: 30px; */
+        width: 100%;
+    }
+    .history{
+        flex-direction: column;
+    }
+    .contact-container{
+        /* margin-left: 30px; */
+        width: 100%;
+        margin-left: -5px;
+    }
+    .let-talk{
+        flex-direction: column;
+    }
+    .name,.email,.message{
+        width: 250px !important;
+    }
+    .contact{
+        margin-left: -10px;
+        width: 100%;
+    }
+    .form-section{
+        /* border: 1px solid red; */
+        margin-left: -45px;
+        width: 100%;
+        
+    }
+    .contact-section{
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .nav-parent{
+        display: none;
+    }
+
+}
+
+
+
+
+@media screen and (min-width:431px) and (max-width:770px){
+
+        .container{
+        border: 2px solid red;
+        flex-direction: column;
+        width: 100%;
+    }
+    .hero-parent{
+        flex-direction: column;
+        margin-top: 295px;
+    }
+    .hero1{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    img{
+        margin-left: 170px;
+    }
+    .hero-ptag{
+        text-align: center;
+    }
+    .icon{
+        margin-left: 250px;
+        
+    }
+    .follow-icon{
+        margin-left: 210px;
+    }
+    .herop{
+        font-size: 20px;
+        /* border: 1px solid red; */
+    }
+    .hero2 h1{
+        /* border: 1px solid red; */
+        font-size: 50px !important;
+    }
+    .hero2{
+        text-align: center;
+    }
+    .resume{
+        flex-direction: column;
+        justify-self: center;
+    }
+    .resume1{
+        width: 100px;
+    }
+    .project{
+        /* border: 1px solid red; */
+        width: 100px;
+    }
+    .resume-one{
+        /* border: 1px solid red; */
+        flex-direction: column;
+        
+    }
+    .experience{
+        /* border: 1px solid red; */
+        margin-left: 30px !important;
+    }
+    .present{
+        width: 100%;
+        /* margin-left: 30px; */
+    }
+    .education{
+        margin-left: 30px !important;
+    }
+    .uni-name{
+        /* margin-left: 30px; */
+        width: 100%;
+    }
+    .professional{
+        margin-left: 30px !important;
+    }
+    .pro-skillset{
+        width: 100%;
+        /* margin-left: 30px; */
+    }
+    .project-section{
+        width: 100%;
+    }
+    .pro-skill{
+        flex-direction: column;
+    }
+    .project-icon{
+        flex-direction: column;
+    }
+    .gym{
+        flex-direction: column;
+    }
+    .projects-skill{
+        /* margin-left: 30px; */
+        width: 100%;
+    }
+    .history{
+        flex-direction: column;
+    }
+    .contact-container{
+        /* margin-left: 30px; */
+        width: 100%;
+        margin-left: -5px;
+    }
+    .let-talk{
+        flex-direction: column;
+    }
+    .name,.email,.message{
+        width: 250px !important;
+    }
+    .contact{
+        margin-left: -10px;
+        width: 100%;
+    }
+    .form-section{
+        /* border: 1px solid red; */
+        margin-left: -45px;
+        width: 100%;
+        
+    }
+    .contact-section{
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .nav-parent{
+        border: 1px solid red;
+        width: 100%;
+        margin-left: -15px;
+    }
+    #navbarr{
+        display: inline;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
